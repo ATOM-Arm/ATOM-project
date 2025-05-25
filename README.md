@@ -1,6 +1,6 @@
 # 🤖 Robotic Arm Project
 
-Welcome to the **main repository** of the *Robotic Arm with Computer Vision*, developed by undergraduate students of Computer Science at Dom Helder School – **GIC Group 2025**.
+Welcome to the **main repository** of the *ATOM PROJECT*, developed by undergraduate students of Computer Science at Dom Helder School.
 
 This repository serves as the central hub for documentation, coordination, and high-level planning of our modular project ecosystem, which includes hardware, software, vision, and control systems.
 
@@ -12,17 +12,6 @@ This initiative aims to develop a functional robotic arm equipped with computer 
 
 The project is **based on the InMoov open-source robotics platform**, adapted and customized for educational and experimental purposes.
 
---- 
-
-## 📋 Purpose of This Repository
-
-This repository includes:
-
-- ✅ Project roadmap and timeline  
-- 🧠 Team structure and member responsibilities  
-- 📝 Meeting agendas and summaries  
-- 🔗 Links to all associated repositories and subsystems  
-
 ---
 
 ## 📦 Modular Repository Ecosystem
@@ -31,8 +20,8 @@ Our project is divided into the following modular GitHub repositories:
 
 | Repository             | Description                                                   |
 |------------------------|---------------------------------------------------------------|
-| `software`             | Python code for computer vision, Arduino communication, and logic control |
-| `hardware`             | 3D printed parts, electronic schematics, components and Arduino code |
+| `software`             | Codes for computer vision, Arduino communication, and logic control |
+| `hardware`             | 3D mechanical parts, electronic schematics, components and Arduino code |
 | `utils`                | Auxiliary tools and automation scripts                         |
 | `docs`                 | Academic documentation, planning files, and technical references |
 <!--
@@ -43,47 +32,6 @@ Our project is divided into the following modular GitHub repositories:
 | `robotic-arm-publications` | Posters, papers, and formal publications                    |
 -->
 
----
-
-## 📁 Repositories Structure
-
-```
-ATOM-project/
-
-├── software/     # Python code for computer vision, Arduino communication, and logic control
-│   ├── cv/                    # CVZone, OpenCV (object tracking, recognition)
-│   ├── control/               # Communication with Arduino, motion logic
-│   ├── interface/             # CLI or future GUI
-│   ├── tests/                 # Unit or integration tests
-│   ├── utils/                 # Auxiliary functions
-│   ├── requirements.txt       # Python dependencies
-│   ├── README.md
-│   └── .gitignore
-
-├── hardware/     # 3D printed parts, circuits, electronic components and Arduino code
-│   ├── arduino/              # Embedded code for microcontrollers
-│   ├── electronics/          # Schematics, wiring diagrams
-│   ├── models/               # STL, STEP and CAD files
-│   ├── components.md         # List of components used
-│   └── README.md
-
-├── utils/        # Auxiliary tools and automation scripts
-│   ├── setup.sh              # Initial setup script
-│   ├── converters/           # File or format converters
-│   ├── benchmarks/           # Performance analysis tools
-│   └── README.md
-        
-├── docs/         # Academic documentation, planning files, and technical references
-│   ├── roadmap.md             # Project phases and deliverables  
-│   ├── workflow.md            # Workflow and commit conventions
-│   ├── theoretical framework/ # 
-│   ├── methodology/           # 
-│   ├── reports/               # Progress and technical reports
-│   ├── meetings/              # Meeting minutes and agendas
-│   ├── diagrams/              # UML, architecture, and flowcharts
-│   ├── team-structure.md      # Team roles and organization
-│   └── README.md
-```
 ---
 
 ## 🧾 Licensing
@@ -97,19 +45,18 @@ For source code or executable scripts added in the future, an additional `MIT Li
 ---
 
 ## 👥 Team & Contributors
+- **Teams**
+  - Enzo Rocha Leite Diniz Ribas *(Lead Researcher)*  
+  - Eduardo do Amaral Melo Pereira  
+  - Lucas Weiss Telles de Matos  
+  - Carlos Eduardo Lopes Caetano  
+  - Rafael Alves
+  - João Augusto Vieira Ramalho
+  - Pedro Lucas Vieira Ramalho
 
-- Enzo Rocha Leite Diniz Ribas *(Product Owner / Coordinator)*  
-- Eduardo do Amaral Melo Pereira  
-- Lucas Weiss Telles de Matos  
-- Carlos Eduardo Lopes Caetano  
-- Moreno Costa Jones  
-- Rafael Alves  
+- **Contributors**
+  - Moreno Costa Jones
 
-See [`teams.md`](./teams.md) for detailed team structure.
+See [`teams.md`](https://github.com/ATOM-Robot-Arm-Project/docs/blob/main/methodology/teams.md) for detailed team structure.
 
 ---
-
-## 📫 Contact & Links
-
-- Project Supervisors: Prof. Ricardo Luiz Freitas  Prof. Presleyson Lima  
-- Institution: Dom Helder School – Computer Science
