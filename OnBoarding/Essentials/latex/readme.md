@@ -15,7 +15,7 @@ LaTeX é uma linguagem de marcação para produção de documentos científicos,
 
 ### 🎯 Recursos e tutoriais recomendados:
 - 👉 Playlist completa sobre LaTeX (Overleaf e local)
-[Curso de LaTeX - Matemática Rio (YouTube)](https://www.youtube.com/playlist?list=PLxI8Can9yAHfsD1T_HFZb5i5kq3JPJGoG)
+[Curso de LaTeX - Matemática Rio (YouTube)](https://www.youtube.com/watch?v=pxsEiJGMTbk&list=PLBTAWVWo60AsrO5ulDb3ZF_kk0z1uKo2_&index=2)
 
 - 👉 Documentação oficial do Overleaf:
 [https://www.overleaf.com/learn/](https://www.overleaf.com/learn/)
