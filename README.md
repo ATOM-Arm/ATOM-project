@@ -14,17 +14,28 @@ The project is **based on the InMoov open-source robotics platform**, adapted an
 
 ---
 
+## This Repository Structure
+- `.github/`: Contains GitHub-specific files, like workflows and code ownership.
+- `OnBoarding/`: Contains materials and guides for onboarding new team members.
+- `planning/`: Contains project planning documents and related files.
+- `scripts/`: Contains utility scripts for automation or repository management.
+
+---
+
 ## 📦 Modular Repository Ecosystem
 
 Our project is divided into the following modular GitHub repositories:
 
-| Repository             | Description                                                   |
-|------------------------|---------------------------------------------------------------|
-| `software`             | Codes for computer vision, Arduino communication, and logic control |
-| `hardware`             | 3D mechanical parts, electronic schematics, components and Arduino code |
-| `utils`                | Auxiliary tools and automation scripts                         |
-| `docs`                 | Academic documentation, planning files, and technical references |
+| Repository | Description |
+|---|---|
+| `ATOM-project` | Main repository with general documentation, project overview, team organization, and status. |
+| `hardware` | Dedicated repository for physical and technical files. |
+| `software` | Code related to computational systems (Python, CVZone, control). |
+| `utils` | Scripts, tools, prototypes, or useful files that do not fit directly into other modules. |
+| `docs` | Repository for academic documentation, planning files, and technical references. |
+| `paper` | Academic papers, articles, and research related to the project. |
 <!--
+
 | `tests`                | System testing, calibration routines, and evaluation logs       |
 | `robotic-arm-site`     | Public website and visual project showcase                     |
 | `robotic-arm-simulator`| Simulation environment (e.g. Unity, ROS)                       |
